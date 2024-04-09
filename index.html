@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CriptoMonedas</title>
+</head>
+<body>
+    
+    <main class="container-xl">
+        
+        <div class="row">
+            <div class="col-12 col-md-6 border bg-dark">
+                <img class="img-fluid rounded w-70" src="img/cripto.webp" alt="">
+            </div>
+            <div class="col-12 col-md-6 border bg-dark d-flex justify-content-center align-items-center p-2">
+                <form action="" class="text-center" id="formulario">
+
+                    <label for="" name="moneda" id="monedas" class="text-primary p-2 fw-bold"> Elige tu moneda</label>
+                    <br>
+                    <select name="moneda" id="moneda" class="moneda p-2 rounded text-danger text-center">
+                        <option value="" disabled selected>Elige tu moneda</option>
+                        <option value="ARS">Peso Argentino</option>
+                        <option value="USD">Dolar</option>
+                        <option value="MXN">Peso Mexicano</option>
+                        <option value="EUR">Euro</option>
+                        <option value="GBP">Libra</option>
+                    </select>
+                    <br>
+                    <label for="" name="criptoMoneda" id="criptoMonedas" class="text-primary p-2 fw-bold"> Elige tu cripto Moneda</label>
+                    <br>
+                    <select name="criptoMoneda" id="criptoMoneda" class="criptoMoneda p-2 rounded text-danger text-center">
+                        <option value="" disabled selected>Elige tu Cripto Moneda</option>
+                    </select>
+                    <br>
+                    <input type="submit" value="Consultar" placeholder="Consultar" id="consultar" class="consultar btn btn-primary m-2">
+                    
+                    <div class="resultado" id="resultado"></div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+    <footer class="bg-dark">
+        <h2 class="fw-bold text-danger text-center p-3"> tomi Code.</h2>
+        <div class="text-center">
+            <a href="https://github.com/codeandoTomi"><img class="img-fluid imgg-fluid mx-5 my-1" src="img/github.png" alt="github"></a>
+            <a href="https://www.linkedin.com/in/tomas-moreira-4876aa249/"><img class="img-fluid imgg-fluid mx-5 my-1" src="img/linkedin.png" alt="linkedin"></a>
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
